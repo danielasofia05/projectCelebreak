@@ -72,3 +72,4 @@ To get started with Flutter development, the following resources are recommended
 - Flutter Official Documentation - https://docs.flutter.dev/
 
 
+With more time I would improve the padding of some elements and perfect the design in general.
