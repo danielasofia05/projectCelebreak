@@ -5,6 +5,7 @@ import 'package:flutter_application_celebreak/shared/styles/images_paths.dart';
 import 'package:flutter_application_celebreak/shared/styles/text_styles.dart';
 import 'package:flutter_application_celebreak/shared/utils/responsive.dart';
 
+/// This Dart class named Sidebar extends StatelessWidget.
 class Sidebar extends StatelessWidget {
   final Responsive responsive;
 
@@ -114,6 +115,7 @@ class SidebarItem extends StatelessWidget {
 }
 
 
+/// This Dart class represents a profile section in a Flutter application.
 class ProfileSection extends StatelessWidget {
   const ProfileSection({super.key});
 

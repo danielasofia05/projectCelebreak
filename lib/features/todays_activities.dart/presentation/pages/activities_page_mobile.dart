@@ -7,6 +7,7 @@ import 'package:flutter_application_celebreak/shared/styles/text_styles.dart';
 import 'package:flutter_application_celebreak/shared/utils/responsive.dart';
 import 'package:flutter_svg/svg.dart';
 
+/// This class represents the mobile version of the Activities page in a Flutter app.
 class ActivitiesPageMobile extends StatefulWidget {
   const ActivitiesPageMobile({super.key});
 
@@ -14,6 +15,7 @@ class ActivitiesPageMobile extends StatefulWidget {
   ActivitiesPageMobileState createState() => ActivitiesPageMobileState();
 }
 
+/// This Dart class represents the state of the ActivitiesPageMobile widget in a mobile application.
 class ActivitiesPageMobileState extends State<ActivitiesPageMobile> {
   List<Activity> activities = [];
   String selectedFilter = 'All';
@@ -387,6 +389,7 @@ class ActivitiesPageMobileState extends State<ActivitiesPageMobile> {
   }
 }
 
+/// This is a Dart class named Activity.
 class Activity {
   final String time;
   final String duration;

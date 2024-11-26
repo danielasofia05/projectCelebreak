@@ -4,6 +4,7 @@ import 'package:flutter_application_celebreak/shared/styles/images_paths.dart';
 import 'package:flutter_application_celebreak/shared/styles/text_styles.dart';
 import 'package:flutter_application_celebreak/shared/utils/responsive.dart';
 
+/// This Dart class named MainContent extends StatefulWidget.
 class MainContent extends StatefulWidget {
   const MainContent({super.key});
 
@@ -11,6 +12,7 @@ class MainContent extends StatefulWidget {
   MainContentState createState() => MainContentState();
 }
 
+/// This Dart class represents the state of the MainContent widget.
 class MainContentState extends State<MainContent> {
   List<Activity> activities = [];
   String selectedFilter = 'All';
@@ -312,6 +314,7 @@ class MainContentState extends State<MainContent> {
   }
 }
 
+/// This is a Dart class named Activity.
 class Activity {
   final String time;
   final String duration;

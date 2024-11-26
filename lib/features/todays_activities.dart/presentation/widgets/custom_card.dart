@@ -4,6 +4,7 @@ import 'package:flutter_application_celebreak/shared/styles/images_paths.dart';
 import 'package:flutter_application_celebreak/shared/styles/text_styles.dart';
 import 'package:flutter_application_celebreak/shared/utils/responsive.dart';
 
+/// This Dart class named InfoCard extends StatelessWidget.
 class InfoCard extends StatelessWidget {
   final Color color;
   final String title;
@@ -134,6 +135,7 @@ class InfoCard extends StatelessWidget {
   }
 }
 
+/// This class represents a section of cards in a Flutter application.
 class CardsSection extends StatelessWidget {
   const CardsSection({super.key});
 
